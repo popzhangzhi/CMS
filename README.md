@@ -32,6 +32,7 @@ Bootstrap CMS was created by, and is maintained by [Graham Campbell](https://git
   * I'd recommend [queuing](#setting-up-queing) email sending for greater performance (see below)
 6. Finally, setup an [Apache VirtualHost](http://httpd.apache.org/docs/current/vhosts/examples.html) to point to the "public" folder.
   * For development, you can simply run `php artisan serve`
+  ps: i need "php artisan key:generate " to make it working.
 
 
 ## Setting Up Queuing
